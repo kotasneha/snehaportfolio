@@ -5,12 +5,12 @@ const projects = [
   {
     title: "SB Flights – Flight Booking App",
     desc: "Full-stack booking platform with MERN stack, JWT authentication, and REST APIs.",
-    link: "https://github.com/your-github/sb-flights"
+    link: "https://github.com/kotasneha/SB-FLIGHT"
   },
   {
     title: "Digital Farmer Education & Engagement Platform",
     desc: "Responsive web app with community features, built using HTML, CSS, JS, and Tailwind.",
-    link: "https://github.com/your-github/digital-farmer"
+    link: "https://github.com/kotasneha/digital-farmer"
   }
 ];
 
