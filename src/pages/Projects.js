@@ -16,17 +16,24 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
+    <div style={{ 
+      display: "flex", 
+      gap: "20px", 
+      flexWrap: "wrap", 
+      justifyContent: "center",
+      padding: "20px"
+    }}>
       {projects.map((project, i) => (
         <motion.div
           key={i}
           whileHover={{ scale: 1.05 }}
           style={{
-            background: "rgba(255,255,255,0.9)",
+            background: "rgba(255,255,255,0.6)", // More transparent background
             padding: "20px",
             borderRadius: "10px",
             width: "300px",
-            boxShadow: "0px 4px 8px rgba(0,0,0,0.2)"
+            boxShadow: "0px 4px 8px rgba(0,0,0,0.2)",
+            maxWidth: "100%", // Ensure cards don't overflow on small screens
           }}
         >
           <h3>{project.title}</h3>
